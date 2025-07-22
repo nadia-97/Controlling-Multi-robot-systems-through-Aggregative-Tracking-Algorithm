@@ -52,7 +52,7 @@ TASK 2.2: Aggregative Tracking in ROS 2
 Step 1: Copy the following command in the terminal to first launch rviz2 with a set configuration: ros2 run rviz2 rviz2 -d <Copy PATH of the config.rviz file from the task2_ws> 
 
 An example of this is shown below: 
-EXAMPLE: ros2 run rviz2 rviz2 -d /home/nadia/task2_ws/task2_ws/src/task2/config/config.rviz
+EXAMPLE: ros2 run rviz2 rviz2 -d /home/xxx/task2_ws/task2_ws/src/task2/config/config.rviz
 
 Step 2: Now in a separate terminal, copy the following command to launch the agents & the plotter nodes: ros2 launch task2 task2_2_launch.launch.py
 __________________________________________________________________________________________________________________________________________
@@ -77,7 +77,7 @@ TASK 2.3: Moving in a corridor via Projected Aggregative tracking algorithm
 Step 1: Copy the following command in the terminal to first launch rviz2 with a set configuration: ros2 run rviz2 -d <Copy PATH of the config.rviz file from the task2_ws> 
 
 An example of this is shown below: 
-EXAMPLE: ros2 run rviz2 rviz2 -d /home/nadia/task2_ws/task2_ws/src/task2/config/config.rviz
+EXAMPLE: ros2 run rviz2 rviz2 -d /home/xxx/task2_ws/task2_ws/src/task2/config/config.rviz
 
 Step 2: Now in a separate terminal, copy the following command to launch the agents & the plotter nodes: ros2 launch task2 task2_3_launch.launch.py
 
