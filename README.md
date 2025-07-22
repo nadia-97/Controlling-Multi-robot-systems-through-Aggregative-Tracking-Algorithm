@@ -30,7 +30,10 @@ ROS2 WORKSPACE SET UP
 - Copy the task2_ws folder in your ros2 environment
 - open terminal and make sure you are in the task2_ws folder
 - copy the following command to build the package: colcon build
-- then, copy the following command: . install/setup.bash
+- then, copy the following command:
+```
+. install/setup.bash
+```
 
 Now you are ready to run tasks 2.2 and 2.3
 __________________________________________________________________________________________________________________________________________
@@ -49,12 +52,20 @@ TASK 2.2: Aggregative Tracking in ROS 2
 
 - Now, follow the steps below:
 
-Step 1: Copy the following command in the terminal to first launch rviz2 with a set configuration: ros2 run rviz2 rviz2 -d <Copy PATH of the config.rviz file from the task2_ws> 
-
+Step 1: Copy the following command in the terminal to first launch rviz2 with a set configuration: 
+```
+ros2 run rviz2 rviz2 -d <Copy PATH of the config.rviz file from the task2_ws> 
+```
 An example of this is shown below: 
-EXAMPLE: ros2 run rviz2 rviz2 -d /home/xxx/task2_ws/task2_ws/src/task2/config/config.rviz
+EXAMPLE: 
+```
+ros2 run rviz2 rviz2 -d /home/xxx/task2_ws/task2_ws/src/task2/config/config.rviz
+```
 
-Step 2: Now in a separate terminal, copy the following command to launch the agents & the plotter nodes: ros2 launch task2 task2_2_launch.launch.py
+Step 2: Now in a separate terminal, copy the following command to launch the agents & the plotter nodes: 
+```
+ros2 launch task2 task2_2_launch.launch.py
+```
 __________________________________________________________________________________________________________________________________________
 
 TASK 2.3: Moving in a corridor via Projected Aggregative tracking algorithm
@@ -74,12 +85,21 @@ TASK 2.3: Moving in a corridor via Projected Aggregative tracking algorithm
 
 - Now, follow the steps below:
 
-Step 1: Copy the following command in the terminal to first launch rviz2 with a set configuration: ros2 run rviz2 -d <Copy PATH of the config.rviz file from the task2_ws> 
+Step 1: Copy the following command in the terminal to first launch rviz2 with a set configuration: 
+```
+ros2 run rviz2 -d <Copy PATH of the config.rviz file from the task2_ws>
+```
 
 An example of this is shown below: 
-EXAMPLE: ros2 run rviz2 rviz2 -d /home/xxx/task2_ws/task2_ws/src/task2/config/config.rviz
+EXAMPLE: 
+```
+ros2 run rviz2 rviz2 -d /home/xxx/task2_ws/task2_ws/src/task2/config/config.rviz
+```
 
-Step 2: Now in a separate terminal, copy the following command to launch the agents & the plotter nodes: ros2 launch task2 task2_3_launch.launch.py
+Step 2: Now in a separate terminal, copy the following command to launch the agents & the plotter nodes: 
+```
+ros2 launch task2 task2_3_launch.launch.py
+```
 
 
 
